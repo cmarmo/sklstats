@@ -1,0 +1,1010 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "edges": [
+          {
+            "node": {
+              "number": 15646,
+              "createdAt": "2019-11-18T08:53:03Z",
+              "closedAt": null,
+              "author": {
+                "login": "zeionara"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15647,
+              "createdAt": "2019-11-18T09:35:57Z",
+              "closedAt": null,
+              "author": {
+                "login": "dupuisIRT"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15649,
+              "createdAt": "2019-11-18T10:58:19Z",
+              "closedAt": null,
+              "author": {
+                "login": "akhiadber"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15651,
+              "createdAt": "2019-11-18T14:57:43Z",
+              "closedAt": null,
+              "author": {
+                "login": "glemaitre"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15653,
+              "createdAt": "2019-11-18T15:47:25Z",
+              "closedAt": "2019-11-19T13:25:12Z",
+              "author": {
+                "login": "adrinjalali"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15657,
+              "createdAt": "2019-11-19T00:03:11Z",
+              "closedAt": null,
+              "author": {
+                "login": "rth"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15658,
+              "createdAt": "2019-11-19T00:53:42Z",
+              "closedAt": "2019-12-08T10:51:31Z",
+              "author": {
+                "login": "mjmikulski"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15660,
+              "createdAt": "2019-11-19T06:27:55Z",
+              "closedAt": null,
+              "author": {
+                "login": "huangjunru"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15662,
+              "createdAt": "2019-11-19T08:53:05Z",
+              "closedAt": "2019-11-19T09:38:59Z",
+              "author": {
+                "login": "wendli01"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15666,
+              "createdAt": "2019-11-19T18:24:23Z",
+              "closedAt": "2019-11-20T12:14:21Z",
+              "author": {
+                "login": "glemaitre"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15667,
+              "createdAt": "2019-11-19T20:56:32Z",
+              "closedAt": null,
+              "author": {
+                "login": "thomasjpfan"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15670,
+              "createdAt": "2019-11-20T06:34:18Z",
+              "closedAt": "2019-11-26T13:32:53Z",
+              "author": {
+                "login": "MDouriez"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15671,
+              "createdAt": "2019-11-20T07:16:42Z",
+              "closedAt": null,
+              "author": {
+                "login": "sandy-shirt"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15672,
+              "createdAt": "2019-11-20T07:18:14Z",
+              "closedAt": null,
+              "author": {
+                "login": "LaurentD87"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15678,
+              "createdAt": "2019-11-20T12:56:41Z",
+              "closedAt": "2019-11-20T20:19:52Z",
+              "author": {
+                "login": "glemaitre"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15682,
+              "createdAt": "2019-11-20T17:51:15Z",
+              "closedAt": "2019-11-23T11:12:31Z",
+              "author": {
+                "login": "randolf-scholz"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15684,
+              "createdAt": "2019-11-20T18:47:51Z",
+              "closedAt": null,
+              "author": {
+                "login": "NicolasHug"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15690,
+              "createdAt": "2019-11-21T03:06:07Z",
+              "closedAt": "2019-11-21T05:04:02Z",
+              "author": {
+                "login": "sfujiwara"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15694,
+              "createdAt": "2019-11-21T11:12:16Z",
+              "closedAt": "2019-12-07T17:36:41Z",
+              "author": {
+                "login": "cmarmo"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15696,
+              "createdAt": "2019-11-21T12:35:46Z",
+              "closedAt": null,
+              "author": {
+                "login": "regstrtn"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15697,
+              "createdAt": "2019-11-21T12:36:30Z",
+              "closedAt": "2019-11-22T15:37:10Z",
+              "author": {
+                "login": "michaels011235"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15699,
+              "createdAt": "2019-11-21T18:38:00Z",
+              "closedAt": "2019-11-21T20:00:59Z",
+              "author": {
+                "login": "tigerhawkvok"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15700,
+              "createdAt": "2019-11-21T20:42:40Z",
+              "closedAt": "2019-11-26T17:31:26Z",
+              "author": {
+                "login": "i-j-i-j-i"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15711,
+              "createdAt": "2019-11-24T06:14:39Z",
+              "closedAt": "2019-11-27T10:33:40Z",
+              "author": {
+                "login": "wderose"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15712,
+              "createdAt": "2019-11-24T06:46:03Z",
+              "closedAt": null,
+              "author": {
+                "login": "khandelwalmohit"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15713,
+              "createdAt": "2019-11-25T09:00:08Z",
+              "closedAt": "2019-11-28T13:15:24Z",
+              "author": {
+                "login": "glemaitre"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15717,
+              "createdAt": "2019-11-25T21:49:31Z",
+              "closedAt": null,
+              "author": {
+                "login": "rafikg"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15718,
+              "createdAt": "2019-11-25T21:54:07Z",
+              "closedAt": null,
+              "author": {
+                "login": "talhakabakus"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15722,
+              "createdAt": "2019-11-27T12:27:59Z",
+              "closedAt": null,
+              "author": {
+                "login": "mcarbajo"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15723,
+              "createdAt": "2019-11-27T15:10:43Z",
+              "closedAt": "2019-11-28T15:43:03Z",
+              "author": {
+                "login": "gaborbernat"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15724,
+              "createdAt": "2019-11-27T18:40:02Z",
+              "closedAt": null,
+              "author": {
+                "login": "Konrad0"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15726,
+              "createdAt": "2019-11-27T20:33:50Z",
+              "closedAt": null,
+              "author": {
+                "login": "pvk-developer"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15727,
+              "createdAt": "2019-11-28T03:07:55Z",
+              "closedAt": null,
+              "author": {
+                "login": "yarikoptic"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15731,
+              "createdAt": "2019-11-28T03:51:13Z",
+              "closedAt": null,
+              "author": {
+                "login": "ForrestCKoch"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15732,
+              "createdAt": "2019-11-28T07:00:58Z",
+              "closedAt": "2019-12-09T12:06:04Z",
+              "author": {
+                "login": "prabhat00155"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15733,
+              "createdAt": "2019-11-28T11:31:55Z",
+              "closedAt": null,
+              "author": {
+                "login": "fcharras"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15738,
+              "createdAt": "2019-11-28T22:55:19Z",
+              "closedAt": "2019-11-29T03:41:31Z",
+              "author": {
+                "login": "glemaitre"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15740,
+              "createdAt": "2019-11-29T08:33:03Z",
+              "closedAt": "2019-12-01T20:46:42Z",
+              "author": {
+                "login": "stephantul"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15741,
+              "createdAt": "2019-11-29T10:18:15Z",
+              "closedAt": null,
+              "author": {
+                "login": "johannfaouzi"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15742,
+              "createdAt": "2019-11-29T14:14:37Z",
+              "closedAt": "2019-11-29T15:01:18Z",
+              "author": {
+                "login": "momouang"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15743,
+              "createdAt": "2019-11-29T14:43:52Z",
+              "closedAt": "2019-12-02T07:53:44Z",
+              "author": {
+                "login": "Passenger12138"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15747,
+              "createdAt": "2019-11-30T21:49:00Z",
+              "closedAt": "2019-12-03T18:18:26Z",
+              "author": {
+                "login": "lucabasa"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15748,
+              "createdAt": "2019-12-01T09:31:48Z",
+              "closedAt": "2019-12-02T15:07:14Z",
+              "author": {
+                "login": "AsherYartsevTech"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15749,
+              "createdAt": "2019-12-01T11:56:12Z",
+              "closedAt": null,
+              "author": {
+                "login": "GregoryMorse"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15750,
+              "createdAt": "2019-12-01T15:36:19Z",
+              "closedAt": null,
+              "author": {
+                "login": "ma7555"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15752,
+              "createdAt": "2019-12-01T19:03:15Z",
+              "closedAt": null,
+              "author": {
+                "login": "Sandy4321"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15755,
+              "createdAt": "2019-12-02T10:51:30Z",
+              "closedAt": null,
+              "author": {
+                "login": "konradsemsch"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15757,
+              "createdAt": "2019-12-02T14:00:14Z",
+              "closedAt": null,
+              "author": {
+                "login": "NicolasHug"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15761,
+              "createdAt": "2019-12-02T20:32:38Z",
+              "closedAt": null,
+              "author": {
+                "login": "cgsavard"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15765,
+              "createdAt": "2019-12-03T11:12:37Z",
+              "closedAt": "2019-12-03T17:55:37Z",
+              "author": {
+                "login": "vinaysb"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15766,
+              "createdAt": "2019-12-03T13:37:41Z",
+              "closedAt": null,
+              "author": {
+                "login": "NicolasHug"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15771,
+              "createdAt": "2019-12-04T02:13:07Z",
+              "closedAt": "2019-12-04T12:06:01Z",
+              "author": {
+                "login": "NicolasHug"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15772,
+              "createdAt": "2019-12-04T02:14:49Z",
+              "closedAt": null,
+              "author": {
+                "login": "NicolasHug"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15774,
+              "createdAt": "2019-12-04T02:32:12Z",
+              "closedAt": "2019-12-07T04:54:40Z",
+              "author": {
+                "login": "jnothman"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15781,
+              "createdAt": "2019-12-04T10:26:51Z",
+              "closedAt": null,
+              "author": {
+                "login": "larskouwenhoven"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15783,
+              "createdAt": "2019-12-04T14:19:27Z",
+              "closedAt": null,
+              "author": {
+                "login": "GregoryMorse"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15784,
+              "createdAt": "2019-12-04T14:24:00Z",
+              "closedAt": "2019-12-11T10:33:54Z",
+              "author": {
+                "login": "thomasjpfan"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15786,
+              "createdAt": "2019-12-04T14:30:57Z",
+              "closedAt": "2019-12-05T12:53:55Z",
+              "author": {
+                "login": "HertzWalter"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15787,
+              "createdAt": "2019-12-04T14:57:27Z",
+              "closedAt": "2019-12-06T12:54:13Z",
+              "author": {
+                "login": "riedgar-ms"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15788,
+              "createdAt": "2019-12-04T15:01:44Z",
+              "closedAt": "2019-12-09T07:45:55Z",
+              "author": {
+                "login": "glemaitre"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15795,
+              "createdAt": "2019-12-04T21:39:07Z",
+              "closedAt": "2019-12-06T12:54:13Z",
+              "author": {
+                "login": "frances-h"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15796,
+              "createdAt": "2019-12-04T22:08:39Z",
+              "closedAt": null,
+              "author": {
+                "login": "rth"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15800,
+              "createdAt": "2019-12-05T16:13:38Z",
+              "closedAt": "2019-12-05T16:59:05Z",
+              "author": {
+                "login": "glemaitre"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15801,
+              "createdAt": "2019-12-05T16:19:44Z",
+              "closedAt": null,
+              "author": {
+                "login": "thomasjpfan"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15802,
+              "createdAt": "2019-12-05T17:14:54Z",
+              "closedAt": "2019-12-06T04:48:55Z",
+              "author": {
+                "login": "rhayman"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15805,
+              "createdAt": "2019-12-05T21:05:30Z",
+              "closedAt": null,
+              "author": {
+                "login": "cia05rf"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15807,
+              "createdAt": "2019-12-05T22:32:24Z",
+              "closedAt": "2019-12-06T00:49:16Z",
+              "author": {
+                "login": "andrhua"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15808,
+              "createdAt": "2019-12-06T01:39:32Z",
+              "closedAt": null,
+              "author": {
+                "login": "huidongchen"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15810,
+              "createdAt": "2019-12-06T09:11:26Z",
+              "closedAt": null,
+              "author": {
+                "login": "andersbogsnes"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15812,
+              "createdAt": "2019-12-06T17:18:33Z",
+              "closedAt": "2019-12-10T13:05:59Z",
+              "author": {
+                "login": "NicolasHug"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15813,
+              "createdAt": "2019-12-06T17:42:01Z",
+              "closedAt": "2019-12-08T18:27:25Z",
+              "author": {
+                "login": "nickyfoto"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15814,
+              "createdAt": "2019-12-06T21:01:48Z",
+              "closedAt": null,
+              "author": {
+                "login": "NicolasHug"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15816,
+              "createdAt": "2019-12-07T09:21:27Z",
+              "closedAt": "2019-12-08T20:34:02Z",
+              "author": {
+                "login": "Nitika123"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15818,
+              "createdAt": "2019-12-07T15:53:47Z",
+              "closedAt": null,
+              "author": {
+                "login": "hmaarrfk"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15820,
+              "createdAt": "2019-12-07T18:11:35Z",
+              "closedAt": null,
+              "author": {
+                "login": "Tvix22"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15821,
+              "createdAt": "2019-12-07T18:20:53Z",
+              "closedAt": null,
+              "author": {
+                "login": "hmaarrfk"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15822,
+              "createdAt": "2019-12-07T21:32:34Z",
+              "closedAt": "2019-12-09T12:01:45Z",
+              "author": {
+                "login": "hmaarrfk"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15823,
+              "createdAt": "2019-12-07T22:51:56Z",
+              "closedAt": "2019-12-09T12:30:03Z",
+              "author": {
+                "login": "hmaarrfk"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15824,
+              "createdAt": "2019-12-08T00:25:11Z",
+              "closedAt": null,
+              "author": {
+                "login": "hmaarrfk"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15825,
+              "createdAt": "2019-12-08T00:27:41Z",
+              "closedAt": null,
+              "author": {
+                "login": "hmaarrfk"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15826,
+              "createdAt": "2019-12-08T01:31:45Z",
+              "closedAt": "2019-12-09T12:25:16Z",
+              "author": {
+                "login": "ShaneTian"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15827,
+              "createdAt": "2019-12-08T02:34:17Z",
+              "closedAt": null,
+              "author": {
+                "login": "hmaarrfk"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15828,
+              "createdAt": "2019-12-08T07:20:17Z",
+              "closedAt": null,
+              "author": {
+                "login": "Knight7561"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15830,
+              "createdAt": "2019-12-08T12:28:27Z",
+              "closedAt": "2019-12-08T18:20:59Z",
+              "author": {
+                "login": "claramatos"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15831,
+              "createdAt": "2019-12-08T13:35:38Z",
+              "closedAt": null,
+              "author": {
+                "login": "gittar"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15836,
+              "createdAt": "2019-12-08T21:44:39Z",
+              "closedAt": null,
+              "author": {
+                "login": "jnothman"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15837,
+              "createdAt": "2019-12-08T22:33:43Z",
+              "closedAt": "2019-12-09T12:01:56Z",
+              "author": {
+                "login": "hmaarrfk"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15841,
+              "createdAt": "2019-12-09T09:44:59Z",
+              "closedAt": null,
+              "author": {
+                "login": "flamby"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15842,
+              "createdAt": "2019-12-09T12:28:32Z",
+              "closedAt": null,
+              "author": {
+                "login": "ogrisel"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15845,
+              "createdAt": "2019-12-09T14:45:28Z",
+              "closedAt": null,
+              "author": {
+                "login": "alegonz"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15850,
+              "createdAt": "2019-12-09T20:13:59Z",
+              "closedAt": null,
+              "author": {
+                "login": "dabana"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15851,
+              "createdAt": "2019-12-10T08:47:35Z",
+              "closedAt": null,
+              "author": {
+                "login": "mayujsw"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15852,
+              "createdAt": "2019-12-10T09:55:59Z",
+              "closedAt": "2019-12-10T10:12:45Z",
+              "author": {
+                "login": "stepodev"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15855,
+              "createdAt": "2019-12-10T17:07:44Z",
+              "closedAt": null,
+              "author": {
+                "login": "lkubin"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15858,
+              "createdAt": "2019-12-10T21:58:51Z",
+              "closedAt": null,
+              "author": {
+                "login": "FranzForstmayr"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15861,
+              "createdAt": "2019-12-11T14:20:54Z",
+              "closedAt": "2019-12-12T10:49:32Z",
+              "author": {
+                "login": "fclesio"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15862,
+              "createdAt": "2019-12-11T18:29:11Z",
+              "closedAt": null,
+              "author": {
+                "login": "pcofoche"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15865,
+              "createdAt": "2019-12-11T20:19:36Z",
+              "closedAt": null,
+              "author": {
+                "login": "jnothman"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15866,
+              "createdAt": "2019-12-12T00:46:49Z",
+              "closedAt": null,
+              "author": {
+                "login": "nik-sm"
+              }
+            }
+          },
+          {
+            "node": {
+              "number": 15869,
+              "createdAt": "2019-12-12T05:50:34Z",
+              "closedAt": "2019-12-12T06:20:51Z",
+              "author": {
+                "login": "pavaninguva"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
