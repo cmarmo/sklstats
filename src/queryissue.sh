@@ -11,6 +11,8 @@ curl -H "Authorization: bearer token" -X POST -d " \
           author { \
             login \
             } \
+          state \
+          lastEditedAt \
           } \
         } \
       } \
