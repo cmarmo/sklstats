@@ -12,6 +12,16 @@ curl -H "Authorization: bearer token" -X POST -d " \
             login \
             } \
           } \
+          reviews(last:50) { \
+            totalCount \
+            edges { \
+              node { \
+                state \
+              } \
+            } \
+          } \
+          state \
+          lastEditedAt \
         } \
       } \
     } \

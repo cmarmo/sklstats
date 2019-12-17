@@ -5,172 +5,18 @@
         "edges": [
           {
             "node": {
-              "number": 15689,
-              "createdAt": "2019-11-21T00:34:30Z",
-              "closedAt": null,
-              "author": {
-                "login": "Ircama"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15691,
-              "createdAt": "2019-11-21T07:55:22Z",
-              "closedAt": null,
-              "author": {
-                "login": "shivamgargsya"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15692,
-              "createdAt": "2019-11-21T10:46:44Z",
-              "closedAt": "2019-11-21T23:34:17Z",
-              "author": {
-                "login": "cmarmo"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15693,
-              "createdAt": "2019-11-21T11:01:54Z",
-              "closedAt": "2019-11-26T13:32:53Z",
-              "author": {
-                "login": "glemaitre"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15695,
-              "createdAt": "2019-11-21T12:03:27Z",
-              "closedAt": "2019-11-21T14:27:26Z",
-              "author": {
-                "login": "gregorybchris"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15698,
-              "createdAt": "2019-11-21T12:45:51Z",
-              "closedAt": "2019-11-29T11:50:00Z",
-              "author": {
-                "login": "plgreenLIRU"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15701,
-              "createdAt": "2019-11-21T21:35:31Z",
-              "closedAt": "2019-11-26T12:14:00Z",
-              "author": {
-                "login": "i-j-i-j-i"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15702,
-              "createdAt": "2019-11-21T23:32:32Z",
-              "closedAt": null,
-              "author": {
-                "login": "thomasjpfan"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15703,
-              "createdAt": "2019-11-22T03:29:08Z",
-              "closedAt": "2019-11-26T12:33:02Z",
-              "author": {
-                "login": "qinhanmin2014"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15704,
-              "createdAt": "2019-11-22T03:47:29Z",
-              "closedAt": "2019-11-25T09:38:34Z",
-              "author": {
-                "login": "qinhanmin2014"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15705,
-              "createdAt": "2019-11-22T13:11:48Z",
-              "closedAt": "2019-11-22T21:27:40Z",
-              "author": {
-                "login": "jeremiedbb"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15706,
-              "createdAt": "2019-11-22T14:25:15Z",
-              "closedAt": null,
-              "author": {
-                "login": "cmarmo"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15707,
-              "createdAt": "2019-11-22T22:57:05Z",
-              "closedAt": "2019-12-08T10:51:31Z",
-              "author": {
-                "login": "mjmikulski"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15708,
-              "createdAt": "2019-11-23T14:26:00Z",
-              "closedAt": "2019-11-25T07:34:55Z",
-              "author": {
-                "login": "thomasjpfan"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15709,
-              "createdAt": "2019-11-23T17:20:09Z",
-              "closedAt": null,
-              "author": {
-                "login": "venkyyuvy"
-              }
-            }
-          },
-          {
-            "node": {
-              "number": 15710,
-              "createdAt": "2019-11-24T05:28:24Z",
-              "closedAt": null,
-              "author": {
-                "login": "chuckhacker"
-              }
-            }
-          },
-          {
-            "node": {
               "number": 15714,
               "createdAt": "2019-11-25T11:57:27Z",
               "closedAt": "2019-11-25T11:57:51Z",
               "author": {
                 "login": "adrinjalali"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "CLOSED",
+              "lastEditedAt": null
             }
           },
           {
@@ -180,7 +26,34 @@
               "closedAt": "2019-11-28T09:51:44Z",
               "author": {
                 "login": "adrinjalali"
-              }
+              },
+              "reviews": {
+                "totalCount": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "CHANGES_REQUESTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -190,7 +63,19 @@
               "closedAt": "2019-11-27T13:11:02Z",
               "author": {
                 "login": "jeremiedbb"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "CLOSED",
+              "lastEditedAt": "2019-11-25T16:08:29Z"
             }
           },
           {
@@ -200,7 +85,13 @@
               "closedAt": null,
               "author": {
                 "login": "thierrymoudiki"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -210,7 +101,24 @@
               "closedAt": "2019-11-26T12:31:40Z",
               "author": {
                 "login": "bwignall"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -220,7 +128,13 @@
               "closedAt": "2019-11-26T21:36:42Z",
               "author": {
                 "login": "thomasjpfan"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "CLOSED",
+              "lastEditedAt": null
             }
           },
           {
@@ -230,7 +144,13 @@
               "closedAt": null,
               "author": {
                 "login": "trabbart"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-12-11T01:35:03Z"
             }
           },
           {
@@ -240,7 +160,19 @@
               "closedAt": null,
               "author": {
                 "login": "MDouriez"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-11-28T04:04:16Z"
             }
           },
           {
@@ -250,7 +182,29 @@
               "closedAt": null,
               "author": {
                 "login": "MDouriez"
-              }
+              },
+              "reviews": {
+                "totalCount": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -260,7 +214,59 @@
               "closedAt": null,
               "author": {
                 "login": "ForrestCKoch"
-              }
+              },
+              "reviews": {
+                "totalCount": 9,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-11-28T03:53:10Z"
             }
           },
           {
@@ -270,7 +276,13 @@
               "closedAt": null,
               "author": {
                 "login": "alfaro96"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -280,7 +292,24 @@
               "closedAt": "2019-12-02T11:03:25Z",
               "author": {
                 "login": "adrinjalali"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -290,7 +319,13 @@
               "closedAt": "2019-11-29T09:59:12Z",
               "author": {
                 "login": "anuprulez"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "CLOSED",
+              "lastEditedAt": null
             }
           },
           {
@@ -300,7 +335,44 @@
               "closedAt": null,
               "author": {
                 "login": "pleydier"
-              }
+              },
+              "reviews": {
+                "totalCount": 6,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -310,7 +382,24 @@
               "closedAt": "2019-11-29T03:41:31Z",
               "author": {
                 "login": "glemaitre"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -320,7 +409,19 @@
               "closedAt": null,
               "author": {
                 "login": "plgreenLIRU"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -330,7 +431,24 @@
               "closedAt": "2019-12-09T13:17:44Z",
               "author": {
                 "login": "thomasjpfan"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -340,7 +458,19 @@
               "closedAt": "2019-12-01T19:08:31Z",
               "author": {
                 "login": "thomasjpfan"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -350,7 +480,59 @@
               "closedAt": null,
               "author": {
                 "login": "tirthasheshpatel"
-              }
+              },
+              "reviews": {
+                "totalCount": 9,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -360,7 +542,29 @@
               "closedAt": "2019-12-02T19:54:38Z",
               "author": {
                 "login": "cgsavard"
-              }
+              },
+              "reviews": {
+                "totalCount": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -370,7 +574,29 @@
               "closedAt": "2019-12-10T15:56:18Z",
               "author": {
                 "login": "cgsavard"
-              }
+              },
+              "reviews": {
+                "totalCount": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "CHANGES_REQUESTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -380,7 +606,24 @@
               "closedAt": "2019-12-02T19:02:13Z",
               "author": {
                 "login": "adrinjalali"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -390,7 +633,19 @@
               "closedAt": "2019-12-02T18:16:56Z",
               "author": {
                 "login": "ogrisel"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -400,7 +655,114 @@
               "closedAt": null,
               "author": {
                 "login": "adrinjalali"
-              }
+              },
+              "reviews": {
+                "totalCount": 20,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -410,7 +772,24 @@
               "closedAt": null,
               "author": {
                 "login": "thomasjpfan"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -420,7 +799,34 @@
               "closedAt": "2019-12-04T14:53:16Z",
               "author": {
                 "login": "thomasjpfan"
-              }
+              },
+              "reviews": {
+                "totalCount": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -430,7 +836,13 @@
               "closedAt": null,
               "author": {
                 "login": "thomasjpfan"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-12-03T02:19:06Z"
             }
           },
           {
@@ -440,7 +852,39 @@
               "closedAt": "2019-12-10T16:05:18Z",
               "author": {
                 "login": "vachanda"
-              }
+              },
+              "reviews": {
+                "totalCount": 5,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "CHANGES_REQUESTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -450,7 +894,19 @@
               "closedAt": "2019-12-03T17:32:58Z",
               "author": {
                 "login": "ogrisel"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": "2019-12-05T15:00:13Z"
             }
           },
           {
@@ -460,7 +916,19 @@
               "closedAt": "2019-12-04T17:25:57Z",
               "author": {
                 "login": "thomasjpfan"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -470,7 +938,24 @@
               "closedAt": "2019-12-06T08:15:38Z",
               "author": {
                 "login": "kwinkunks"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -480,7 +965,24 @@
               "closedAt": "2019-12-04T07:09:58Z",
               "author": {
                 "login": "jnothman"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -490,7 +992,69 @@
               "closedAt": "2019-12-09T08:33:07Z",
               "author": {
                 "login": "J-A16"
-              }
+              },
+              "reviews": {
+                "totalCount": 11,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -500,7 +1064,39 @@
               "closedAt": "2019-12-07T04:54:41Z",
               "author": {
                 "login": "thomasjpfan"
-              }
+              },
+              "reviews": {
+                "totalCount": 5,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -510,7 +1106,19 @@
               "closedAt": null,
               "author": {
                 "login": "thomasjpfan"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -520,7 +1128,34 @@
               "closedAt": "2019-12-10T16:07:40Z",
               "author": {
                 "login": "cgsavard"
-              }
+              },
+              "reviews": {
+                "totalCount": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "CHANGES_REQUESTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -530,7 +1165,19 @@
               "closedAt": "2019-12-10T16:09:46Z",
               "author": {
                 "login": "cgsavard"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -540,7 +1187,19 @@
               "closedAt": "2019-12-04T07:08:36Z",
               "author": {
                 "login": "cgsavard"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -550,7 +1209,19 @@
               "closedAt": "2019-12-04T10:24:01Z",
               "author": {
                 "login": "cgsavard"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -560,7 +1231,39 @@
               "closedAt": null,
               "author": {
                 "login": "plgreenLIRU"
-              }
+              },
+              "reviews": {
+                "totalCount": 5,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-12-04T18:38:58Z"
             }
           },
           {
@@ -570,7 +1273,39 @@
               "closedAt": null,
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 5,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -580,7 +1315,24 @@
               "closedAt": "2019-12-04T17:22:57Z",
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -590,7 +1342,24 @@
               "closedAt": "2019-12-04T17:21:57Z",
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -600,7 +1369,19 @@
               "closedAt": "2019-12-04T17:24:11Z",
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -610,7 +1391,24 @@
               "closedAt": "2019-12-06T12:59:46Z",
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -620,7 +1418,24 @@
               "closedAt": "2019-12-05T23:02:53Z",
               "author": {
                 "login": "thomasjpfan"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -630,7 +1445,29 @@
               "closedAt": "2019-12-05T15:49:01Z",
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": "2019-12-04T17:38:11Z"
             }
           },
           {
@@ -640,7 +1477,34 @@
               "closedAt": "2019-12-06T12:54:13Z",
               "author": {
                 "login": "thomasjpfan"
-              }
+              },
+              "reviews": {
+                "totalCount": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": "2019-12-05T16:21:54Z"
             }
           },
           {
@@ -650,7 +1514,19 @@
               "closedAt": null,
               "author": {
                 "login": "panpiort8"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-12-09T18:01:34Z"
             }
           },
           {
@@ -660,7 +1536,24 @@
               "closedAt": "2019-12-05T22:39:18Z",
               "author": {
                 "login": "ogrisel"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -670,17 +1563,96 @@
               "closedAt": "2019-12-09T14:17:07Z",
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 8,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": "2019-12-05T20:04:37Z"
             }
           },
           {
             "node": {
               "number": 15804,
               "createdAt": "2019-12-05T20:47:41Z",
-              "closedAt": null,
+              "closedAt": "2019-12-13T20:05:51Z",
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 5,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -690,7 +1662,54 @@
               "closedAt": "2019-12-07T17:36:41Z",
               "author": {
                 "login": "cmarmo"
-              }
+              },
+              "reviews": {
+                "totalCount": 8,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -700,7 +1719,19 @@
               "closedAt": "2019-12-10T16:36:40Z",
               "author": {
                 "login": "vachanda"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "CHANGES_REQUESTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -710,7 +1741,13 @@
               "closedAt": "2019-12-06T12:11:38Z",
               "author": {
                 "login": "KathrynPoole"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -720,7 +1757,34 @@
               "closedAt": null,
               "author": {
                 "login": "rafikg"
-              }
+              },
+              "reviews": {
+                "totalCount": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-12-06T21:07:10Z"
             }
           },
           {
@@ -730,7 +1794,13 @@
               "closedAt": null,
               "author": {
                 "login": "cyrus303"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -740,7 +1810,29 @@
               "closedAt": "2019-12-10T13:14:01Z",
               "author": {
                 "login": "adrinjalali"
-              }
+              },
+              "reviews": {
+                "totalCount": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -750,7 +1842,44 @@
               "closedAt": "2019-12-11T10:33:54Z",
               "author": {
                 "login": "qinhanmin2014"
-              }
+              },
+              "reviews": {
+                "totalCount": 6,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -760,7 +1889,24 @@
               "closedAt": "2019-12-09T07:45:55Z",
               "author": {
                 "login": "alfaro96"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": "2019-12-08T14:29:48Z"
             }
           },
           {
@@ -770,7 +1916,19 @@
               "closedAt": "2019-12-10T13:07:23Z",
               "author": {
                 "login": "qinhanmin2014"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -780,7 +1938,24 @@
               "closedAt": "2019-12-10T13:01:31Z",
               "author": {
                 "login": "smola"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -790,7 +1965,13 @@
               "closedAt": "2019-12-08T18:24:00Z",
               "author": {
                 "login": "JJmistry"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -800,7 +1981,13 @@
               "closedAt": "2019-12-09T08:01:38Z",
               "author": {
                 "login": "cshih14"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "CLOSED",
+              "lastEditedAt": null
             }
           },
           {
@@ -810,7 +1997,13 @@
               "closedAt": "2019-12-09T09:38:58Z",
               "author": {
                 "login": "suraj95"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "CLOSED",
+              "lastEditedAt": "2019-12-09T07:02:07Z"
             }
           },
           {
@@ -820,7 +2013,24 @@
               "closedAt": "2019-12-09T14:14:39Z",
               "author": {
                 "login": "lesteve"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": "2019-12-09T07:52:53Z"
             }
           },
           {
@@ -830,7 +2040,24 @@
               "closedAt": "2019-12-10T13:46:58Z",
               "author": {
                 "login": "qinhanmin2014"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -840,7 +2067,24 @@
               "closedAt": "2019-12-10T13:03:37Z",
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -850,7 +2094,49 @@
               "closedAt": null,
               "author": {
                 "login": "ogrisel"
-              }
+              },
+              "reviews": {
+                "totalCount": 7,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -860,7 +2146,13 @@
               "closedAt": null,
               "author": {
                 "login": "lesteve"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -870,7 +2162,34 @@
               "closedAt": "2019-12-11T20:26:41Z",
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "CLOSED",
+              "lastEditedAt": "2019-12-09T20:11:23Z"
             }
           },
           {
@@ -880,7 +2199,29 @@
               "closedAt": null,
               "author": {
                 "login": "reshamas"
-              }
+              },
+              "reviews": {
+                "totalCount": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "CHANGES_REQUESTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -890,7 +2231,19 @@
               "closedAt": "2019-12-10T12:58:42Z",
               "author": {
                 "login": "SylvainLan"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -900,7 +2253,19 @@
               "closedAt": null,
               "author": {
                 "login": "glemaitre"
-              }
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -910,7 +2275,13 @@
               "closedAt": null,
               "author": {
                 "login": "oleksandr-pavlyk"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -920,7 +2291,13 @@
               "closedAt": null,
               "author": {
                 "login": "oleksandr-pavlyk"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -930,7 +2307,13 @@
               "closedAt": "2019-12-11T10:22:52Z",
               "author": {
                 "login": "qinhanmin2014"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
@@ -940,7 +2323,13 @@
               "closedAt": null,
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-12-11T13:22:49Z"
             }
           },
           {
@@ -950,7 +2339,29 @@
               "closedAt": null,
               "author": {
                 "login": "adrinjalali"
-              }
+              },
+              "reviews": {
+                "totalCount": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "CHANGES_REQUESTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-12-11T19:29:40Z"
             }
           },
           {
@@ -960,7 +2371,13 @@
               "closedAt": null,
               "author": {
                 "login": "NicolasHug"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
@@ -970,7 +2387,13 @@
               "closedAt": "2019-12-12T02:07:41Z",
               "author": {
                 "login": "nik-sm"
-              }
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "CLOSED",
+              "lastEditedAt": null
             }
           },
           {
@@ -980,27 +2403,448 @@
               "closedAt": null,
               "author": {
                 "login": "nik-sm"
-              }
+              },
+              "reviews": {
+                "totalCount": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           },
           {
             "node": {
               "number": 15870,
               "createdAt": "2019-12-12T10:13:23Z",
-              "closedAt": null,
+              "closedAt": "2019-12-13T22:10:17Z",
               "author": {
                 "login": "alfaro96"
-              }
+              },
+              "reviews": {
+                "totalCount": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
             }
           },
           {
             "node": {
               "number": 15871,
               "createdAt": "2019-12-12T11:53:01Z",
-              "closedAt": null,
+              "closedAt": "2019-12-13T00:45:00Z",
               "author": {
                 "login": "samj1912"
-              }
+              },
+              "reviews": {
+                "totalCount": 4,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": "2019-12-12T11:54:04Z"
+            }
+          },
+          {
+            "node": {
+              "number": 15875,
+              "createdAt": "2019-12-13T03:51:04Z",
+              "closedAt": "2019-12-13T03:51:18Z",
+              "author": {
+                "login": "qinhanmin2014"
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15879,
+              "createdAt": "2019-12-13T07:02:25Z",
+              "closedAt": null,
+              "author": {
+                "login": "Bibyutatsu"
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15883,
+              "createdAt": "2019-12-13T14:20:29Z",
+              "closedAt": null,
+              "author": {
+                "login": "jhennrich"
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15885,
+              "createdAt": "2019-12-14T01:34:17Z",
+              "closedAt": null,
+              "author": {
+                "login": "qinhanmin2014"
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-12-14T01:42:07Z"
+            }
+          },
+          {
+            "node": {
+              "number": 15887,
+              "createdAt": "2019-12-14T09:28:37Z",
+              "closedAt": "2019-12-14T11:52:55Z",
+              "author": {
+                "login": "wenliwyan"
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15888,
+              "createdAt": "2019-12-14T11:42:01Z",
+              "closedAt": null,
+              "author": {
+                "login": "qinhanmin2014"
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15890,
+              "createdAt": "2019-12-14T19:50:50Z",
+              "closedAt": "2019-12-14T20:07:32Z",
+              "author": {
+                "login": "shivamgargsya"
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15891,
+              "createdAt": "2019-12-14T20:03:08Z",
+              "closedAt": null,
+              "author": {
+                "login": "thomasjpfan"
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15892,
+              "createdAt": "2019-12-14T20:28:15Z",
+              "closedAt": null,
+              "author": {
+                "login": "thomasjpfan"
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15897,
+              "createdAt": "2019-12-16T08:07:16Z",
+              "closedAt": "2019-12-16T08:50:49Z",
+              "author": {
+                "login": "shivamgargsya"
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "CLOSED",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15898,
+              "createdAt": "2019-12-16T08:54:29Z",
+              "closedAt": null,
+              "author": {
+                "login": "shivamgargsya"
+              },
+              "reviews": {
+                "totalCount": 3,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-12-16T13:12:42Z"
+            }
+          },
+          {
+            "node": {
+              "number": 15904,
+              "createdAt": "2019-12-16T18:04:20Z",
+              "closedAt": null,
+              "author": {
+                "login": "thomasjpfan"
+              },
+              "reviews": {
+                "totalCount": 1,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  }
+                ]
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15905,
+              "createdAt": "2019-12-16T18:33:07Z",
+              "closedAt": "2019-12-17T07:28:32Z",
+              "author": {
+                "login": "thomasjpfan"
+              },
+              "reviews": {
+                "totalCount": 2,
+                "edges": [
+                  {
+                    "node": {
+                      "state": "APPROVED"
+                    }
+                  },
+                  {
+                    "node": {
+                      "state": "COMMENTED"
+                    }
+                  }
+                ]
+              },
+              "state": "MERGED",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15906,
+              "createdAt": "2019-12-17T01:54:50Z",
+              "closedAt": null,
+              "author": {
+                "login": "MattEding"
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": "2019-12-17T03:07:10Z"
+            }
+          },
+          {
+            "node": {
+              "number": 15907,
+              "createdAt": "2019-12-17T04:03:19Z",
+              "closedAt": null,
+              "author": {
+                "login": "okz12"
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
+            }
+          },
+          {
+            "node": {
+              "number": 15909,
+              "createdAt": "2019-12-17T10:36:28Z",
+              "closedAt": null,
+              "author": {
+                "login": "ogrisel"
+              },
+              "reviews": {
+                "totalCount": 0,
+                "edges": []
+              },
+              "state": "OPEN",
+              "lastEditedAt": null
             }
           }
         ]
