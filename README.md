@@ -30,7 +30,7 @@ See the [GraphQL Pull Request schema](https://developer.github.com/v4/object/pul
 ```
 query { 
     repository(owner:"scikit-learn", name:"scikit-learn") {
-    pullRequests(last: 100) {
+    pullRequests(last: 50) {
       edges {
         node {
           number
@@ -39,6 +39,15 @@ query {
           author {
             login
           }
+          reviews(last:50) {
+            totalCount
+            edges {
+              node {
+                state
+              }
+            }
+          }
+          state
         }
       }
     }
