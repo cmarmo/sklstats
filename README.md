@@ -4,22 +4,22 @@ See https://opensource.guide/metrics/#maintainer-activity
 
 ## Notes on data retrieving 
 
----_Github API v3_
+~~_Github API v3_
 
-List all the issues (curl -i if header needed)
+~~List all the issues (curl -i if header needed)
 
-See the [issue parameters](https://developer.github.com/v3/issues/#parameters)
+~~See the [issue parameters](https://developer.github.com/v3/issues/#parameters)
 ```
 curl https://api.github.com/repos/scikit-learn/scikit-learn/issues/events
 ```
 
-List all the PRs
+~~List all the PRs
 
-See the [PR parameters](https://developer.github.com/v3/pulls/#parameters)
+~~See the [PR parameters](https://developer.github.com/v3/pulls/#parameters)
 ```
 curl https://api.github.com/repos/scikit-learn/scikit-learn/pulls
 ```
----
+
 
 _[Github API v4](https://developer.github.com/v4/)_
 
