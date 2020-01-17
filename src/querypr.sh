@@ -2,8 +2,9 @@ curl -H "Authorization: bearer token" -X POST -d " \
  { \
    \"query\": \"query { \
     repository(owner:\\\"scikit-learn\\\", name:\\\"scikit-learn\\\") { \
-    pullRequests(last: 100) { \
+    pullRequests(last: 100 after: $prCursor) { \
       edges { \
+        cursor \
         node { \
           number \
           createdAt \
