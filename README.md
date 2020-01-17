@@ -4,7 +4,7 @@ See https://opensource.guide/metrics/#maintainer-activity
 
 ## Notes on data retrieving 
 
-_Github API v3_
+---_Github API v3_
 
 List all the issues (curl -i if header needed)
 
@@ -19,6 +19,7 @@ See the [PR parameters](https://developer.github.com/v3/pulls/#parameters)
 ```
 curl https://api.github.com/repos/scikit-learn/scikit-learn/pulls
 ```
+---
 
 _[Github API v4](https://developer.github.com/v4/)_
 
