@@ -2,13 +2,14 @@
 # from https://gist.github.com/gbaman/b3137e18c739e0cf98539bf4ec4366ad
 
 import requests
+import json
 
 headers = {"Authorization": "Bearer YOUR API KEY"}
 
 # A simple function to use requests.post to make the API call.
 # Note the json= section.
 
-def run_query(query, variables): 
+def run_query(query, variables):
     request = requests.post('https://api.github.com/graphql',
                             json={'query': query, 'variables': variables},
                             headers=headers)
@@ -18,14 +19,12 @@ def run_query(query, variables):
         raise Exception("Query failed to run by returning code of {}.{}".
                          format(request.status_code, query))
 
-        
 # The GraphQL query (with a few aditional bits included) itself
 # defined as a multi-line string.       
-
-query = """
-query($issueCursor: String!) {
+firstquery = """
+query {
   repository(owner: "scikit-learn", name: "scikit-learn") {
-    issues(last: 10 after: $issueCursor) {
+    issues(first: 100) {
       edges {
         cursor
         node {
@@ -43,7 +42,43 @@ query($issueCursor: String!) {
   }
 }
 """
+variables = {}
+result = run_query(firstquery, variables) # Execute the query
+templist = result["data"]["repository"]["issues"]["edges"]
+issuelist = templist
 
-variables = {"issueCursor": myCursor}	
+myCursor = issuelist[-1]['cursor']
 
-result = run_query(query, variables) # Execute the query
+while(len(templist)>1):
+        query = """
+        query($issueCursor: String!) {
+          repository(owner: "scikit-learn", name: "scikit-learn") {
+            issues(first: 100 after: $issueCursor) {
+              edges {
+                cursor
+                node {
+                  number
+                  createdAt
+                  closedAt
+                  author {
+                    login
+                  }
+                  state
+                  lastEditedAt
+                }
+              }
+            }
+          }
+        }
+        """
+
+        variables = {"issueCursor": myCursor}	
+
+        result = run_query(query, variables) # Execute the query
+        templist = result["data"]["repository"]["issues"]["edges"]
+        issuelist += templist
+        myCursor = issuelist[-1]['cursor']
+
+fp = open('issues.json', 'w')
+json.dump(issuelist, fp)
+fp.close()
