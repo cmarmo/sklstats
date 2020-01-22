@@ -74,12 +74,13 @@ def main():
             "Duration" : duration, "FcommAuthor" : firstcommentedBy,
             "FcommDate" : answdate, "AnswerTime" : reaction }
   idf = pd.DataFrame(idata)
-  yidf = idf.groupby([idf['CreatedAt'].dt.to_period('Y')]).count().unstack()
+  yidf = idf.groupby([idf['CreatedAt'].dt.to_period('Y')])
 
   fig = plt.figure()
   n_na = idf["Duration"].count()
   perc = 100 * (ntot - n_na) / ntot 
   sns.distplot(idf["Duration"].dropna(), bins=100, kde=False);
+  yidf['Duration'].hist()
   plt.title("Issue Duration")
   plt.xlabel("days")
   plt.yscale("log")
@@ -91,6 +92,7 @@ def main():
   n_na = idf["AnswerTime"].count()
   perc = 100 * (ntot - n_na) / ntot 
   sns.distplot(idf["AnswerTime"].dropna(), kde=False);
+  yidf['AnswerTime'].hist()
   plt.title("Issue First answer")
   plt.xlabel("days")
   plt.yscale("log")
@@ -98,9 +100,9 @@ def main():
   plt.text(1000, 1000, percstr)
   plt.show()
   
-  gidf = idf.groupby([idf['CreatedAt'].dt.to_period('M')]).count().unstack()
-  gidf['CreatedAt'].plot(kind='bar', color='red')
-  gidf['ClosedAt'].plot(kind='bar', color='blue')
+  #gidf = idf.groupby([idf['CreatedAt'].dt.to_period('M')]).count().unstack()
+  #gidf['CreatedAt'].plot(kind='bar', color='red')
+  #gidf['ClosedAt'].plot(kind='bar', color='blue')
 
   plt.show()
   #fig.savefig('plot.png')
