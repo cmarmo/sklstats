@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Load plotly.js into the DOM -->
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+<script>
+window.onload = function() {
+
+author = []
+
+function addData(data) {
+	for (var i = 0; i < data.length; i++) {
+               if (data[i].node.author != null) {
+                   author.push(
+			/*create: new Date(data[i].node.createdAt),
+			close: new Date(data[i].node.closedAt),*/
+			data[i].node.author.login
+		    );
+               }
+	}
+        var plotdata = [{
+               x: author,
+               type: 'histogram',
+	       marker: {
+                      color: 'red',
+	       },
+        }];
+
+var layout = {
+  title: { text: "Number of PR per author",
+           font: { family: 'Courier New, monospace',
+                   size: 24 } },
+/*  autosize: false,
+  width: 500,
+  height: 500,*/
+  margin: {
+    l: 50,
+    r: 50,
+    b: 100,
+    t: 100,
+    pad: 4
+  },
+  /*paper_bgcolor: '#7f7f7f',
+  plot_bgcolor: '#c7c7c7' */
+};
+
+        Plotly.newPlot('myDiv', plotdata, layout);
+
+}
+
+$.getJSON("pullrequests.json", addData);
+
+}
+</script>
+</head>
+<body>
+<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+</body>
+</html>
